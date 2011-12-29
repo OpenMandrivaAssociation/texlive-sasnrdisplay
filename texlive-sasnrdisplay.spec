@@ -25,16 +25,8 @@ and the results of their calculations or simulations into LaTeX
 projects. The package is also capable of overloading the Sweave
 and SASweave packages.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -48,7 +40,6 @@ and SASweave packages.
 %doc %{_texmfdistdir}/doc/latex/sasnrdisplay/README
 %doc %{_texmfdistdir}/doc/latex/sasnrdisplay/SASnRdisplay.pdf
 %doc %{_texmfdistdir}/doc/latex/sasnrdisplay/SASnRdisplay.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,5 +50,3 @@ and SASweave packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
