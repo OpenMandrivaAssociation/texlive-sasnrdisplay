@@ -1,12 +1,12 @@
-# revision 24793
+# revision 25751
 # category Package
 # catalog-ctan /macros/latex/contrib/sasnrdisplay
-# catalog-date 2011-12-02 09:08:13 +0100
+# catalog-date 2012-03-27 17:23:43 +0200
 # catalog-license lppl1.3
-# catalog-version 0.9
+# catalog-version 0.91
 Name:		texlive-sasnrdisplay
-Version:	0.9
-Release:	2
+Version:	0.91
+Release:	1
 Summary:	Typeset SAS or R code or output
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sasnrdisplay
