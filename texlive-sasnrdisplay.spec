@@ -6,7 +6,7 @@
 # catalog-version 0.91
 Name:		texlive-sasnrdisplay
 Version:	0.91
-Release:	2
+Release:	3
 Summary:	Typeset SAS or R code or output
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sasnrdisplay
