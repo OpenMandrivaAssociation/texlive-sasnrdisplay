@@ -1,12 +1,12 @@
-# revision 25751
+# revision 33120
 # category Package
 # catalog-ctan /macros/latex/contrib/sasnrdisplay
-# catalog-date 2012-03-27 17:23:43 +0200
+# catalog-date 2014-03-07 12:39:33 +0100
 # catalog-license lppl1.3
-# catalog-version 0.91
+# catalog-version 0.93
 Name:		texlive-sasnrdisplay
-Version:	0.91
-Release:	5
+Version:	0.93
+Release:	1
 Summary:	Typeset SAS or R code or output
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sasnrdisplay
@@ -50,19 +50,3 @@ and SASweave packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.91-1
-+ Revision: 790734
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.9-2
-+ Revision: 755789
-- Rebuild to reduce used resources
-
-* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.9-1
-+ Revision: 739650
-- texlive-sasnrdisplay
-- texlive-sasnrdisplay
-
