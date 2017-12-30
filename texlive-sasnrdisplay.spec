@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 0.93
 Name:		texlive-sasnrdisplay
-Version:	0.93
-Release:	5
+Version:	0.95
+Release:	1
 Summary:	Typeset SAS or R code or output
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sasnrdisplay
