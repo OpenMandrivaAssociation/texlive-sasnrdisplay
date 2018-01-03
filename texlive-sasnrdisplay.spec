@@ -1,9 +1,3 @@
-# revision 33120
-# category Package
-# catalog-ctan /macros/latex/contrib/sasnrdisplay
-# catalog-date 2014-03-07 12:39:33 +0100
-# catalog-license lppl1.3
-# catalog-version 0.93
 Name:		texlive-sasnrdisplay
 Version:	0.95
 Release:	1
@@ -35,11 +29,8 @@ and SASweave packages.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/sasnrdisplay/SASnRdisplay.cfg
-%{_texmfdistdir}/tex/latex/sasnrdisplay/SASnRdisplay.sty
-%doc %{_texmfdistdir}/doc/latex/sasnrdisplay/README
-%doc %{_texmfdistdir}/doc/latex/sasnrdisplay/SASnRdisplay.pdf
-%doc %{_texmfdistdir}/doc/latex/sasnrdisplay/SASnRdisplay.tex
+%{_texmfdistdir}/tex/latex/sasnrdisplay
+%doc %{_texmfdistdir}/doc/latex/sasnrdisplay
 
 #-----------------------------------------------------------------------
 %prep
