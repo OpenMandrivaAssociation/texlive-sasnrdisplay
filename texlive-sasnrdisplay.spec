@@ -1,6 +1,6 @@
 Name:		texlive-sasnrdisplay
 Version:	63255
-Release:	1
+Release:	2
 Summary:	Typeset SAS or R code or output
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sasnrdisplay
