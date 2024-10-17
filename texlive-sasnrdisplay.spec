@@ -3,7 +3,7 @@ Version:	63255
 Release:	2
 Summary:	Typeset SAS or R code or output
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sasnrdisplay
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sasnrdisplay
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sasnrdisplay.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sasnrdisplay.doc.r%{version}.tar.xz
